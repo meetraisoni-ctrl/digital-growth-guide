@@ -5,6 +5,13 @@ import { HomePage } from './pages/HomePage';
 import { SeoGuidePage } from './pages/SeoGuidePage';
 import { KeywordResearchPage } from './pages/KeywordResearchPage';
 import { OnPageSeoPage } from './pages/OnPageSeoPage';
+import { DigitalMarketingGuidePage } from './pages/DigitalMarketingGuidePage';
+import { ContentMarketingStrategyPage } from './pages/ContentMarketingStrategyPage';
+import { SocialMediaMarketingPage } from './pages/SocialMediaMarketingPage';
+import { TechnicalSeoBasicsPage } from './pages/TechnicalSeoBasicsPage';
+import { LinkBuildingGuidePage } from './pages/LinkBuildingGuidePage';
+import { EmailMarketingGuidePage } from './pages/EmailMarketingGuidePage';
+import { MarketingAnalyticsPage } from './pages/MarketingAnalyticsPage';
 import { ProjectDocsModal } from './components/ProjectDocsModal';
 import { Compass, ArrowLeft } from 'lucide-react';
 
@@ -72,6 +79,34 @@ export default function App() {
 
     if (normalizedPath === '/on-page-seo-techniques/') {
       return <OnPageSeoPage onNavigate={navigate} />;
+    }
+
+    if (normalizedPath === '/what-is-digital-marketing/') {
+      return <DigitalMarketingGuidePage onNavigate={navigate} />;
+    }
+
+    if (normalizedPath === '/content-marketing-strategy/') {
+      return <ContentMarketingStrategyPage onNavigate={navigate} />;
+    }
+
+    if (normalizedPath === '/social-media-marketing-guide/') {
+      return <SocialMediaMarketingPage onNavigate={navigate} />;
+    }
+
+    if (normalizedPath === '/technical-seo-basics/') {
+      return <TechnicalSeoBasicsPage onNavigate={navigate} />;
+    }
+
+    if (normalizedPath === '/link-building-guide/') {
+      return <LinkBuildingGuidePage onNavigate={navigate} />;
+    }
+
+    if (normalizedPath === '/email-marketing-guide/') {
+      return <EmailMarketingGuidePage onNavigate={navigate} />;
+    }
+
+    if (normalizedPath === '/digital-marketing-analytics/') {
+      return <MarketingAnalyticsPage onNavigate={navigate} />;
     }
 
     if (normalizedPath === '/project-documentation/') {

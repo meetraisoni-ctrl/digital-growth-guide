@@ -84,6 +84,125 @@ export const KEYWORD_RESEARCH_TABLE_DATA = [
       'How Do You Optimize Title Tags and Meta Descriptions for Search Engines?',
     ],
   },
+  {
+    pageName: 'Article 4: What Is Digital Marketing?',
+    pageUrl: '/what-is-digital-marketing/',
+    mainKeyword: 'what is digital marketing',
+    relatedKeyword1: 'digital marketing basics',
+    relatedKeyword2: 'types of digital marketing',
+    searchIntent: 'Informational',
+    titleTag: "What Is Digital Marketing? Complete Beginner's Guide",
+    titleLength: 51,
+    metaDesc: 'Discover what digital marketing is, explore digital marketing basics, learn the core types of digital marketing, and build a cohesive online growth strategy.',
+    metaLength: 158,
+    h1: "What Is Digital Marketing? A Complete Beginner's Guide",
+    aeoHeadings: [
+      'What Is Digital Marketing and Why Is It Essential for Modern Businesses?',
+      'What Are the Main Types of Digital Marketing for Beginners?',
+    ],
+  },
+  {
+    pageName: 'Article 5: Content Marketing Strategy',
+    pageUrl: '/content-marketing-strategy/',
+    mainKeyword: 'content marketing strategy',
+    relatedKeyword1: 'content marketing for beginners',
+    relatedKeyword2: 'content creation tips',
+    searchIntent: 'Informational',
+    titleTag: 'Content Marketing Strategy: Create Content That Works',
+    titleLength: 53,
+    metaDesc: 'Master content marketing strategy with practical content marketing for beginners, actionable content creation tips, audience research, and editorial planning.',
+    metaLength: 159,
+    h1: 'Content Marketing Strategy: How to Create Content That Works',
+    aeoHeadings: [
+      'What Is a Content Marketing Strategy and Why Do Businesses Need One?',
+      'How Do Beginners Create a High-Impact Content Marketing Strategy?',
+    ],
+  },
+  {
+    pageName: 'Article 6: Social Media Marketing Guide',
+    pageUrl: '/social-media-marketing-guide/',
+    mainKeyword: 'social media marketing for beginners',
+    relatedKeyword1: 'social media strategy',
+    relatedKeyword2: 'social media marketing tips',
+    searchIntent: 'Informational',
+    titleTag: 'Social Media Marketing for Beginners: Strategy Guide',
+    titleLength: 52,
+    metaDesc: 'Learn social media marketing for beginners with actionable social media strategy frameworks, platform selection advice, and practical social media marketing tips.',
+    metaLength: 162,
+    h1: 'Social Media Marketing for Beginners: Build Your Audience Strategy',
+    aeoHeadings: [
+      'What Is Social Media Marketing and How Does It Drive Growth for Beginners?',
+      'How Do You Build an Effective Social Media Strategy from Scratch?',
+    ],
+  },
+  {
+    pageName: 'Article 7: Technical SEO Basics',
+    pageUrl: '/technical-seo-basics/',
+    mainKeyword: 'technical SEO basics',
+    relatedKeyword1: 'website SEO audit',
+    relatedKeyword2: 'website crawlability',
+    searchIntent: 'Informational',
+    titleTag: 'Technical SEO Basics: Improve Website Performance',
+    titleLength: 49,
+    metaDesc: 'Understand technical SEO basics, perform a website SEO audit, optimize website crawlability, and improve Core Web Vitals for better search rankings.',
+    metaLength: 149,
+    h1: "Technical SEO Basics: Improve Your Website's Performance",
+    aeoHeadings: [
+      'What Is Technical SEO and Why Is It Vital for Search Rankings?',
+      'How Do You Perform a Basic Website SEO Audit for Crawlability?',
+    ],
+  },
+  {
+    pageName: 'Article 8: Link Building Guide',
+    pageUrl: '/link-building-guide/',
+    mainKeyword: 'link building guide',
+    relatedKeyword1: 'quality backlinks',
+    relatedKeyword2: 'off-page SEO techniques',
+    searchIntent: 'Informational',
+    titleTag: 'Link Building Guide: How to Earn Quality Backlinks',
+    titleLength: 50,
+    metaDesc: 'Discover this comprehensive link building guide explaining how to earn quality backlinks, apply off-page SEO techniques, and boost domain authority.',
+    metaLength: 148,
+    h1: 'Link Building Guide: How to Earn Quality Backlinks',
+    aeoHeadings: [
+      'What Is Link Building and Why Are Quality Backlinks Essential for SEO?',
+      'How Do Beginners Earn High-Quality Backlinks Without Spam Tactics?',
+    ],
+  },
+  {
+    pageName: 'Article 9: Email Marketing Guide',
+    pageUrl: '/email-marketing-guide/',
+    mainKeyword: 'email marketing for beginners',
+    relatedKeyword1: 'email marketing strategy',
+    relatedKeyword2: 'email campaign tips',
+    searchIntent: 'Informational',
+    titleTag: 'Email Marketing for Beginners: Build & Engage Audience',
+    titleLength: 54,
+    metaDesc: 'Explore email marketing for beginners, design a high-converting email marketing strategy, and implement proven email campaign tips to grow your audience.',
+    metaLength: 153,
+    h1: 'Email Marketing for Beginners: Build and Engage Your Audience',
+    aeoHeadings: [
+      'What Is Email Marketing and Why Is It So Effective for Audience Retention?',
+      'How Do You Build an Email Marketing Strategy with High Open and Click Rates?',
+    ],
+  },
+  {
+    pageName: 'Article 10: Digital Marketing Analytics',
+    pageUrl: '/digital-marketing-analytics/',
+    mainKeyword: 'digital marketing analytics',
+    relatedKeyword1: 'website traffic analysis',
+    relatedKeyword2: 'marketing performance metrics',
+    searchIntent: 'Informational',
+    titleTag: 'Digital Marketing Analytics: Measure Marketing ROI',
+    titleLength: 50,
+    metaDesc: 'Learn digital marketing analytics, master website traffic analysis, track essential marketing performance metrics, and optimize campaign ROI.',
+    metaLength: 142,
+    h1: 'How to Measure Digital Marketing Performance Using Analytics',
+    aeoHeadings: [
+      'What Is Digital Marketing Analytics and Why Does It Matter for Growth?',
+      'What Are the Most Critical Marketing Performance Metrics to Track?',
+    ],
+  },
 ];
 
 export const ARTICLES_DATA: Record<string, ArticleData> = {
@@ -227,6 +346,342 @@ export const ARTICLES_DATA: Record<string, ArticleData> = {
         question: 'How do image alt text and compression help on-page SEO?',
         answer:
           'Image compression (such as using WebP format) speeds up page load times, a known Core Web Vitals ranking factor. Descriptive alt text enables search engines to index images in visual search while ensuring accessibility for visually impaired readers.',
+      },
+    ],
+  },
+
+  'what-is-digital-marketing': {
+    id: 'what-is-digital-marketing',
+    slug: '/what-is-digital-marketing/',
+    title: "What Is Digital Marketing? A Complete Beginner's Guide",
+    h1: "What Is Digital Marketing? A Complete Beginner's Guide",
+    subtitle:
+      'A holistic breakdown of online promotion, organic vs paid channels, customer journeys, and core digital marketing basics.',
+    readTime: '8 min read',
+    imageAlt:
+      'Diagram illustrating the core channels and types of digital marketing in a modern business ecosystem',
+    seoMetadata: {
+      title: "What Is Digital Marketing? Complete Beginner's Guide",
+      metaDescription:
+        'Discover what digital marketing is, explore digital marketing basics, learn the core types of digital marketing, and build a cohesive online growth strategy.',
+      canonicalUrl: `${BASE_URL}/what-is-digital-marketing/`,
+      mainKeyword: 'what is digital marketing',
+      relatedKeyword1: 'digital marketing basics',
+      relatedKeyword2: 'types of digital marketing',
+      searchIntent: 'Informational',
+      ogType: 'article',
+      publishDate: '2026-10-14',
+    },
+    summary:
+      'Explore the overarching framework of digital marketing, from search and content to email and analytics, and understand how modern channels operate together.',
+    faqs: [
+      {
+        question: 'What is the fundamental difference between digital and traditional marketing?',
+        answer:
+          'Traditional marketing relies on broad one-way broadcast media such as billboards, print ads, and TV, whereas digital marketing provides precise audience targeting, bidirectional interaction, and measurable real-time analytics.',
+      },
+      {
+        question: 'Which digital marketing channel should a complete beginner focus on first?',
+        answer:
+          'Beginners should start with organic search engine optimization and content marketing on an owned website, as these foundational channels generate compounding long-term traffic without requiring ongoing ad spend.',
+      },
+      {
+        question: 'How do paid advertising and organic marketing work together?',
+        answer:
+          'Paid advertising provides immediate testing insights, keyword validation, and fast traffic surges, while organic channels provide sustained credibility, educational depth, and low cost-per-acquisition over time.',
+      },
+      {
+        question: 'Is digital marketing expensive for small businesses and college students?',
+        answer:
+          'No. Most digital marketing basics—such as keyword research, content publishing, social networking, and basic email outreach—can be launched using free or freemium tools with minimal financial investment.',
+      },
+    ],
+  },
+
+  'content-marketing-strategy': {
+    id: 'content-marketing-strategy',
+    slug: '/content-marketing-strategy/',
+    title: 'Content Marketing Strategy: How to Create Content That Works',
+    h1: 'Content Marketing Strategy: How to Create Content That Works',
+    subtitle:
+      'Plan, produce, and syndicate high-value educational content that builds trust, solves user problems, and fuels organic rankings.',
+    readTime: '8 min read',
+    imageAlt:
+      'Infographic illustrating the four phases of a content marketing strategy lifecycle and growth flywheel',
+    seoMetadata: {
+      title: 'Content Marketing Strategy: Create Content That Works',
+      metaDescription:
+        'Master content marketing strategy with practical content marketing for beginners, actionable content creation tips, audience research, and editorial planning.',
+      canonicalUrl: `${BASE_URL}/content-marketing-strategy/`,
+      mainKeyword: 'content marketing strategy',
+      relatedKeyword1: 'content marketing for beginners',
+      relatedKeyword2: 'content creation tips',
+      searchIntent: 'Informational',
+      ogType: 'article',
+      publishDate: '2026-10-14',
+    },
+    summary:
+      'Discover how to design a sustainable content marketing strategy, research audience pain points, structure comprehensive articles, and build an evergreen publication schedule.',
+    faqs: [
+      {
+        question: 'What makes a content marketing strategy different from just writing blog posts?',
+        answer:
+          'A strategy connects content directly to audience intent, keyword research, distribution channels, and business milestones, ensuring every published asset serves a deliberate purpose.',
+      },
+      {
+        question: 'How often should a beginner publish new content?',
+        answer:
+          'Consistency and editorial depth always trump sheer volume. Publishing one comprehensive, well-researched guide every one to two weeks yields far better ranking outcomes than three superficial posts weekly.',
+      },
+      {
+        question: 'What is evergreen content and why is it valuable?',
+        answer:
+          'Evergreen content addresses timeless challenges and foundational topics that remain relevant for months or years, continuing to earn steady search traffic without frequent obsolescence.',
+      },
+      {
+        question: 'How do you measure whether your content is working?',
+        answer:
+          'Key signals include organic search impressions, average engagement time, scroll depth, social shares, email newsletter sign-ups, and conversion completions.',
+      },
+    ],
+  },
+
+  'social-media-marketing-guide': {
+    id: 'social-media-marketing-guide',
+    slug: '/social-media-marketing-guide/',
+    title: 'Social Media Marketing for Beginners',
+    h1: 'Social Media Marketing for Beginners: Build Your Audience Strategy',
+    subtitle:
+      'Select the right platforms, curate engagement-driven content pillars, build organic community trust, and drive qualified website referral traffic.',
+    readTime: '7 min read',
+    imageAlt:
+      'Diagram illustrating the three stages of strategic social media audience acquisition and engagement',
+    seoMetadata: {
+      title: 'Social Media Marketing for Beginners: Strategy Guide',
+      metaDescription:
+        'Learn social media marketing for beginners with actionable social media strategy frameworks, platform selection advice, and practical social media marketing tips.',
+      canonicalUrl: `${BASE_URL}/social-media-marketing-guide/`,
+      mainKeyword: 'social media marketing for beginners',
+      relatedKeyword1: 'social media strategy',
+      relatedKeyword2: 'social media marketing tips',
+      searchIntent: 'Informational',
+      ogType: 'article',
+      publishDate: '2026-10-14',
+    },
+    summary:
+      'Learn how to leverage social platforms strategically without burnout, develop focused content pillars, and funnel social interactions into owned website traffic.',
+    faqs: [
+      {
+        question: 'Should a beginner be active on every social media network simultaneously?',
+        answer:
+          'No. Spreading effort across too many platforms leads to low-quality posts. Beginners should master one or two primary networks where their target audience is most active and engaged.',
+      },
+      {
+        question: 'What is the 80/20 rule in social media marketing?',
+        answer:
+          'The 80/20 guideline recommends dedicating 80% of your posts to helpful, educational, or entertaining value and reserving only 20% for direct calls-to-action or promotional pitches.',
+      },
+      {
+        question: 'How does social media marketing support search engine optimization?',
+        answer:
+          'While social links are usually nofollow, viral social reach attracts content citations, boosts brand search query volume, and earns natural editorial backlinks from creators.',
+      },
+      {
+        question: 'How do you measure return on investment (ROI) from social media?',
+        answer:
+          'Use UTM tracking parameters on shared links to monitor referral visits, average engagement duration, and goal conversions inside web analytics dashboards.',
+      },
+    ],
+  },
+
+  'technical-seo-basics': {
+    id: 'technical-seo-basics',
+    slug: '/technical-seo-basics/',
+    title: "Technical SEO Basics: Improve Your Website's Performance",
+    h1: "Technical SEO Basics: Improve Your Website's Performance",
+    subtitle:
+      'A practical guide to web crawlability, indexation hygiene, XML sitemaps, robots.txt, Core Web Vitals, and mobile responsiveness.',
+    readTime: '8 min read',
+    imageAlt:
+      'Technical diagram showing website crawlability, XML sitemaps, robots.txt directives, and Core Web Vitals',
+    seoMetadata: {
+      title: 'Technical SEO Basics: Improve Website Performance',
+      metaDescription:
+        'Understand technical SEO basics, perform a website SEO audit, optimize website crawlability, and improve Core Web Vitals for better search rankings.',
+      canonicalUrl: `${BASE_URL}/technical-seo-basics/`,
+      mainKeyword: 'technical SEO basics',
+      relatedKeyword1: 'website SEO audit',
+      relatedKeyword2: 'website crawlability',
+      searchIntent: 'Informational',
+      ogType: 'article',
+      publishDate: '2026-10-14',
+    },
+    summary:
+      'Uncover the technical foundations that allow search engines to crawl, render, and index your website swiftly and without crawling roadblocks.',
+    faqs: [
+      {
+        question: 'Why is technical SEO important if my content is already great?',
+        answer:
+          'If search engine bots encounter technical hurdles such as crawl blocks, slow server responses, or broken rendering, they cannot index or rank your content regardless of its quality.',
+      },
+      {
+        question: 'What is the role of an XML sitemap in technical SEO?',
+        answer:
+          'An XML sitemap is a structured machine-readable directory that provides search crawlers with a prioritized list of canonical URLs, indicating when they were last modified.',
+      },
+      {
+        question: 'What are Google Core Web Vitals and why do they matter?',
+        answer:
+          'Core Web Vitals are standardized performance benchmarks assessing loading speed (LCP), user responsiveness (INP), and visual stability (CLS) on real devices.',
+      },
+      {
+        question: 'How do I know if my website has crawl errors?',
+        answer:
+          'Set up Google Search Console and inspect the Page Indexing report, which flags 404 errors, server timeouts, redirect loops, and excluded pages.',
+      },
+    ],
+  },
+
+  'link-building-guide': {
+    id: 'link-building-guide',
+    slug: '/link-building-guide/',
+    title: 'Link Building Guide: How to Earn Quality Backlinks',
+    h1: 'Link Building Guide: How to Earn Quality Backlinks',
+    subtitle:
+      'Understand off-page authority, evaluate backlink quality vs quantity, avoid algorithmic penalties, and execute ethical outreach.',
+    readTime: '8 min read',
+    imageAlt:
+      'Visual diagram showing how quality editorial backlinks transmit link equity and PageRank between websites',
+    seoMetadata: {
+      title: 'Link Building Guide: How to Earn Quality Backlinks',
+      metaDescription:
+        'Discover this comprehensive link building guide explaining how to earn quality backlinks, apply off-page SEO techniques, and boost domain authority.',
+      canonicalUrl: `${BASE_URL}/link-building-guide/`,
+      mainKeyword: 'link building guide',
+      relatedKeyword1: 'quality backlinks',
+      relatedKeyword2: 'off-page SEO techniques',
+      searchIntent: 'Informational',
+      ogType: 'article',
+      publishDate: '2026-10-14',
+    },
+    summary:
+      'Learn how inbound links function as algorithmic votes of confidence, how to craft linkable assets, and how to execute ethical outreach to earn authoritative backlinks.',
+    faqs: [
+      {
+        question: 'What makes a backlink "high quality" versus "low quality"?',
+        answer:
+          'High-quality backlinks come from reputable, contextually relevant websites with genuine audience traffic. Low-quality links come from automated link farms, paid spam directories, or unrelated sites.',
+      },
+      {
+        question: 'Why should beginners avoid buying cheap backlink packages?',
+        answer:
+          'Buying links violates Google Webmaster Guidelines and can trigger algorithmic or manual penalties that demote or de-index your website permanently.',
+      },
+      {
+        question: 'What is a "linkable asset"?',
+        answer:
+          'A linkable asset is an exceptional piece of content—such as an original industry study, comprehensive tutorial, free tool, or unique infographic—that creators naturally reference.',
+      },
+      {
+        question: 'What is the difference between follow and nofollow links?',
+        answer:
+          'Follow links pass PageRank and algorithmic trust to the target site, while nofollow or sponsored links signal to search bots that the link should not pass ranking endorsement.',
+      },
+    ],
+  },
+
+  'email-marketing-guide': {
+    id: 'email-marketing-guide',
+    slug: '/email-marketing-guide/',
+    title: 'Email Marketing for Beginners: Build and Engage Your Audience',
+    h1: 'Email Marketing for Beginners: Build and Engage Your Audience',
+    subtitle:
+      'Create high-converting lead magnets, write welcoming onboarding sequences, maintain list hygiene, and drive loyal repeat visitors.',
+    readTime: '7 min read',
+    imageAlt:
+      'Infographic illustrating the four phases of the email marketing subscriber journey and lead nurture funnel',
+    seoMetadata: {
+      title: 'Email Marketing for Beginners: Build & Engage Audience',
+      metaDescription:
+        'Explore email marketing for beginners, design a high-converting email marketing strategy, and implement proven email campaign tips to grow your audience.',
+      canonicalUrl: `${BASE_URL}/email-marketing-guide/`,
+      mainKeyword: 'email marketing for beginners',
+      relatedKeyword1: 'email marketing strategy',
+      relatedKeyword2: 'email campaign tips',
+      searchIntent: 'Informational',
+      ogType: 'article',
+      publishDate: '2026-10-14',
+    },
+    summary:
+      'Master the most direct owned communication channel: building an opt-in subscriber list, designing automated nurture workflows, and crafting compelling newsletters.',
+    faqs: [
+      {
+        question: 'Why is email marketing still so powerful compared to social media?',
+        answer:
+          'Email is an owned channel where you communicate directly with subscribers in their inbox, free from third-party social algorithms that throttle organic post reach.',
+      },
+      {
+        question: 'What is an effective lead magnet for beginner websites?',
+        answer:
+          'A high-value, concise resource such as a printable SEO checklist, a curated template, a cheat sheet, or a 5-day email crash course that solves an immediate reader problem.',
+      },
+      {
+        question: 'How do you keep your emails from landing in the spam folder?',
+        answer:
+          'Implement proper sender authentication (DKIM, SPF, DMARC), use double opt-in, maintain list hygiene by removing inactive contacts, and avoid deceptive subject lines.',
+      },
+      {
+        question: 'What is an average healthy open rate for email newsletters?',
+        answer:
+          'Across most industries, an average open rate between 20% and 35% and a click-through rate of 2% to 5% are considered healthy and engaged.',
+      },
+    ],
+  },
+
+  'digital-marketing-analytics': {
+    id: 'digital-marketing-analytics',
+    slug: '/digital-marketing-analytics/',
+    title: 'How to Measure Digital Marketing Performance Using Analytics',
+    h1: 'How to Measure Digital Marketing Performance Using Analytics',
+    subtitle:
+      'Decode Google Analytics 4, track audience acquisition channels, evaluate user engagement, and optimize campaigns for measurable ROI.',
+    readTime: '8 min read',
+    imageAlt:
+      'Visual analytics dashboard illustration displaying traffic acquisition channels, conversion rates, and ROI metrics',
+    seoMetadata: {
+      title: 'Digital Marketing Analytics: Measure Marketing ROI',
+      metaDescription:
+        'Learn digital marketing analytics, master website traffic analysis, track essential marketing performance metrics, and optimize campaign ROI.',
+      canonicalUrl: `${BASE_URL}/digital-marketing-analytics/`,
+      mainKeyword: 'digital marketing analytics',
+      relatedKeyword1: 'website traffic analysis',
+      relatedKeyword2: 'marketing performance metrics',
+      searchIntent: 'Informational',
+      ogType: 'article',
+      publishDate: '2026-10-14',
+    },
+    summary:
+      'Learn how to translate website traffic and engagement numbers into actionable business decisions, monitor core KPIs, and build reliable marketing reports.',
+    faqs: [
+      {
+        question: 'What free analytics tools should every beginner install?',
+        answer:
+          'Install Google Analytics 4 (GA4) for behavioral and demographic insights, and Google Search Console (GSC) for first-party search query and indexing performance.',
+      },
+      {
+        question: 'What is the difference between vanity metrics and actionable metrics?',
+        answer:
+          'Vanity metrics (like raw pageviews or impressions) look impressive but don’t indicate intent. Actionable metrics (like engagement duration, conversion rate, and bounce rates) guide strategic decisions.',
+      },
+      {
+        question: 'What are UTM parameters and why are they essential?',
+        answer:
+          'UTM parameters are short tags appended to URLs (source, medium, campaign) that allow analytics software to track exactly where incoming visitors originated.',
+      },
+      {
+        question: 'How often should a beginner review their marketing analytics?',
+        answer:
+          'A weekly pulse check on traffic and lead volume combined with a comprehensive monthly deep dive to evaluate trends and content performance provides an ideal balance.',
       },
     ],
   },

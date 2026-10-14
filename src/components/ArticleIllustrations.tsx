@@ -429,3 +429,562 @@ export const OnPageSeoIllustration: React.FC<IllustrationProps> = ({ className =
     </figure>
   );
 };
+
+/**
+ * Article 4 Illustration:
+ * Digital Marketing Ecosystem: Core Channels & Strategy Framework
+ */
+export const DigitalMarketingIllustration: React.FC<IllustrationProps> = ({ className = '', alt }) => {
+  return (
+    <figure className={`overflow-hidden rounded-2xl border border-slate-200 bg-slate-900 shadow-xl ${className}`}>
+      <svg viewBox="0 0 960 480" className="w-full h-auto" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label={alt}>
+        <title>{alt}</title>
+        <defs>
+          <linearGradient id="bg-grad-4" x1="0" y1="0" x2="960" y2="480" gradientUnits="userSpaceOnUse">
+            <stop stopColor="#0B1329" />
+            <stop offset="1" stopColor="#1E293B" />
+          </linearGradient>
+          <pattern id="grid-pattern-4" width="40" height="40" patternUnits="userSpaceOnUse">
+            <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" strokeWidth="0.5" opacity="0.3" />
+          </pattern>
+        </defs>
+        <rect width="960" height="480" fill="url(#bg-grad-4)" />
+        <rect width="960" height="480" fill="url(#grid-pattern-4)" />
+        <text x="480" y="44" textAnchor="middle" fill="#94A3B8" fontSize="13" fontWeight="600" letterSpacing="0.1em">
+          DIGITAL MARKETING ECOSYSTEM
+        </text>
+        <text x="480" y="72" textAnchor="middle" fill="#FFFFFF" fontSize="22" fontWeight="700">
+          Integrated Growth Channels for Beginners
+        </text>
+        <g transform="translate(60, 110)">
+          {/* Channel 1: SEO */}
+          <g transform="translate(0, 0)">
+            <rect width="155" height="260" rx="14" fill="#1E293B" stroke="#334155" />
+            <circle cx="77" cy="45" r="22" fill="#10B981" fillOpacity="0.15" />
+            <text x="77" y="52" textAnchor="middle" fill="#10B981" fontSize="18" fontWeight="bold">SEO</text>
+            <text x="77" y="95" textAnchor="middle" fill="#FFFFFF" fontSize="14" fontWeight="bold">Search Engine</text>
+            <text x="77" y="115" textAnchor="middle" fill="#94A3B8" fontSize="11">Organic visibility</text>
+            <text x="77" y="130" textAnchor="middle" fill="#94A3B8" fontSize="11">High-intent intent</text>
+            <rect x="20" y="160" width="115" height="26" rx="6" fill="#0F172A" />
+            <text x="77" y="177" textAnchor="middle" fill="#34D399" fontSize="10" fontWeight="600">Compounding</text>
+          </g>
+          {/* Channel 2: Content */}
+          <g transform="translate(170, 0)">
+            <rect width="155" height="260" rx="14" fill="#1E293B" stroke="#334155" />
+            <circle cx="77" cy="45" r="22" fill="#3B82F6" fillOpacity="0.15" />
+            <text x="77" y="52" textAnchor="middle" fill="#3B82F6" fontSize="16" fontWeight="bold">CONTENT</text>
+            <text x="77" y="95" textAnchor="middle" fill="#FFFFFF" fontSize="14" fontWeight="bold">Storytelling</text>
+            <text x="77" y="115" textAnchor="middle" fill="#94A3B8" fontSize="11">Educational blogs</text>
+            <text x="77" y="130" textAnchor="middle" fill="#94A3B8" fontSize="11">Value creation</text>
+            <rect x="20" y="160" width="115" height="26" rx="6" fill="#0F172A" />
+            <text x="77" y="177" textAnchor="middle" fill="#60A5FA" fontSize="10" fontWeight="600">Authority</text>
+          </g>
+          {/* Channel 3: Social */}
+          <g transform="translate(340, 0)">
+            <rect width="155" height="260" rx="14" fill="#1E293B" stroke="#334155" />
+            <circle cx="77" cy="45" r="22" fill="#A855F7" fillOpacity="0.15" />
+            <text x="77" y="52" textAnchor="middle" fill="#A855F7" fontSize="18" fontWeight="bold">SOCIAL</text>
+            <text x="77" y="95" textAnchor="middle" fill="#FFFFFF" fontSize="14" fontWeight="bold">Social Media</text>
+            <text x="77" y="115" textAnchor="middle" fill="#94A3B8" fontSize="11">Community reach</text>
+            <text x="77" y="130" textAnchor="middle" fill="#94A3B8" fontSize="11">Brand dialogue</text>
+            <rect x="20" y="160" width="115" height="26" rx="6" fill="#0F172A" />
+            <text x="77" y="177" textAnchor="middle" fill="#C084FC" fontSize="10" fontWeight="600">Engagement</text>
+          </g>
+          {/* Channel 4: Email */}
+          <g transform="translate(510, 0)">
+            <rect width="155" height="260" rx="14" fill="#1E293B" stroke="#334155" />
+            <circle cx="77" cy="45" r="22" fill="#F59E0B" fillOpacity="0.15" />
+            <text x="77" y="52" textAnchor="middle" fill="#F59E0B" fontSize="18" fontWeight="bold">EMAIL</text>
+            <text x="77" y="95" textAnchor="middle" fill="#FFFFFF" fontSize="14" fontWeight="bold">Owned Audience</text>
+            <text x="77" y="115" textAnchor="middle" fill="#94A3B8" fontSize="11">Direct nurture</text>
+            <text x="77" y="130" textAnchor="middle" fill="#94A3B8" fontSize="11">High conversion</text>
+            <rect x="20" y="160" width="115" height="26" rx="6" fill="#0F172A" />
+            <text x="77" y="177" textAnchor="middle" fill="#FBBF24" fontSize="10" fontWeight="600">Retention</text>
+          </g>
+          {/* Channel 5: Analytics */}
+          <g transform="translate(680, 0)">
+            <rect width="155" height="260" rx="14" fill="#1E293B" stroke="#10B981" strokeWidth="2" />
+            <circle cx="77" cy="45" r="22" fill="#10B981" fillOpacity="0.2" />
+            <text x="77" y="52" textAnchor="middle" fill="#34D399" fontSize="17" fontWeight="bold">DATA</text>
+            <text x="77" y="95" textAnchor="middle" fill="#FFFFFF" fontSize="14" fontWeight="bold">Analytics</text>
+            <text x="77" y="115" textAnchor="middle" fill="#94A3B8" fontSize="11">Measurement</text>
+            <text x="77" y="130" textAnchor="middle" fill="#94A3B8" fontSize="11">Continuous ROI</text>
+            <rect x="20" y="160" width="115" height="26" rx="6" fill="#059669" />
+            <text x="77" y="177" textAnchor="middle" fill="#FFFFFF" fontSize="10" fontWeight="700">Optimization</text>
+          </g>
+        </g>
+        <text x="480" y="425" textAnchor="middle" fill="#64748B" fontSize="12">
+          Source: Digital Growth Guide Educational Curriculum • Modern Digital Marketing Architecture
+        </text>
+      </svg>
+      <figcaption className="bg-slate-900/95 px-6 py-3 text-xs text-slate-400 border-t border-slate-800 flex items-center justify-between">
+        <span>Figure 4.1: The Five Core Pillars of a Balanced Digital Marketing Strategy</span>
+        <span className="font-mono text-emerald-400">Marketing Framework</span>
+      </figcaption>
+    </figure>
+  );
+};
+
+/**
+ * Article 5 Illustration:
+ * Content Marketing Strategy Lifecycle
+ */
+export const ContentMarketingIllustration: React.FC<IllustrationProps> = ({ className = '', alt }) => {
+  return (
+    <figure className={`overflow-hidden rounded-2xl border border-slate-200 bg-slate-900 shadow-xl ${className}`}>
+      <svg viewBox="0 0 960 480" className="w-full h-auto" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label={alt}>
+        <title>{alt}</title>
+        <defs>
+          <linearGradient id="bg-grad-5" x1="0" y1="0" x2="960" y2="480" gradientUnits="userSpaceOnUse">
+            <stop stopColor="#0B1329" />
+            <stop offset="1" stopColor="#1E293B" />
+          </linearGradient>
+          <pattern id="grid-pattern-5" width="40" height="40" patternUnits="userSpaceOnUse">
+            <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" strokeWidth="0.5" opacity="0.3" />
+          </pattern>
+        </defs>
+        <rect width="960" height="480" fill="url(#bg-grad-5)" />
+        <rect width="960" height="480" fill="url(#grid-pattern-5)" />
+        <text x="480" y="44" textAnchor="middle" fill="#94A3B8" fontSize="13" fontWeight="600" letterSpacing="0.1em">
+          CONTENT MARKETING STRATEGY CYCLE
+        </text>
+        <text x="480" y="72" textAnchor="middle" fill="#FFFFFF" fontSize="22" fontWeight="700">
+          The 4-Step Flywheel: Ideate, Create, Distribute, Analyze
+        </text>
+        <g transform="translate(80, 115)">
+          <g transform="translate(0, 0)">
+            <rect width="180" height="240" rx="14" fill="#1E293B" stroke="#38BDF8" strokeWidth="1.5" />
+            <circle cx="35" cy="35" r="16" fill="#0284C7" fillOpacity="0.3" />
+            <text x="35" y="41" textAnchor="middle" fill="#38BDF8" fontSize="12" fontWeight="bold">01</text>
+            <text x="65" y="40" fill="#FFFFFF" fontSize="16" fontWeight="bold">Research</text>
+            <text x="20" y="85" fill="#94A3B8" fontSize="11">• Audience personas</text>
+            <text x="20" y="110" fill="#94A3B8" fontSize="11">• Keyword intent mapping</text>
+            <text x="20" y="135" fill="#94A3B8" fontSize="11">• Competitor gap review</text>
+            <rect x="20" y="180" width="140" height="30" rx="6" fill="#0F172A" />
+            <text x="90" y="200" textAnchor="middle" fill="#38BDF8" fontSize="11" fontWeight="600">Topical Authority</text>
+          </g>
+          <g transform="translate(210, 0)">
+            <rect width="180" height="240" rx="14" fill="#1E293B" stroke="#10B981" strokeWidth="2" />
+            <circle cx="35" cy="35" r="16" fill="#10B981" fillOpacity="0.3" />
+            <text x="35" y="41" textAnchor="middle" fill="#34D399" fontSize="12" fontWeight="bold">02</text>
+            <text x="65" y="40" fill="#FFFFFF" fontSize="16" fontWeight="bold">Creation</text>
+            <text x="20" y="85" fill="#94A3B8" fontSize="11">• Comprehensive guides</text>
+            <text x="20" y="110" fill="#94A3B8" fontSize="11">• Original visuals & data</text>
+            <text x="20" y="135" fill="#94A3B8" fontSize="11">• AEO question answers</text>
+            <rect x="20" y="180" width="140" height="30" rx="6" fill="#059669" />
+            <text x="90" y="200" textAnchor="middle" fill="#FFFFFF" fontSize="11" fontWeight="600">High Utility Value</text>
+          </g>
+          <g transform="translate(420, 0)">
+            <rect width="180" height="240" rx="14" fill="#1E293B" stroke="#F59E0B" strokeWidth="1.5" />
+            <circle cx="35" cy="35" r="16" fill="#D97706" fillOpacity="0.3" />
+            <text x="35" y="41" textAnchor="middle" fill="#FBBF24" fontSize="12" fontWeight="bold">03</text>
+            <text x="65" y="40" fill="#FFFFFF" fontSize="16" fontWeight="bold">Distribution</text>
+            <text x="20" y="85" fill="#94A3B8" fontSize="11">• Search optimization</text>
+            <text x="20" y="110" fill="#94A3B8" fontSize="11">• Social syndication</text>
+            <text x="20" y="135" fill="#94A3B8" fontSize="11">• Email newsletter loops</text>
+            <rect x="20" y="180" width="140" height="30" rx="6" fill="#0F172A" />
+            <text x="90" y="200" textAnchor="middle" fill="#FBBF24" fontSize="11" fontWeight="600">Audience Reach</text>
+          </g>
+          <g transform="translate(630, 0)">
+            <rect width="180" height="240" rx="14" fill="#1E293B" stroke="#8B5CF6" strokeWidth="1.5" />
+            <circle cx="35" cy="35" r="16" fill="#7C3AED" fillOpacity="0.3" />
+            <text x="35" y="41" textAnchor="middle" fill="#A78BFA" fontSize="12" fontWeight="bold">04</text>
+            <text x="65" y="40" fill="#FFFFFF" fontSize="16" fontWeight="bold">Refinement</text>
+            <text x="20" y="85" fill="#94A3B8" fontSize="11">• Engagement metrics</text>
+            <text x="20" y="110" fill="#94A3B8" fontSize="11">• Content refreshes</text>
+            <text x="20" y="135" fill="#94A3B8" fontSize="11">• Conversion tracking</text>
+            <rect x="20" y="180" width="140" height="30" rx="6" fill="#0F172A" />
+            <text x="90" y="200" textAnchor="middle" fill="#A78BFA" fontSize="11" fontWeight="600">Iterative Growth</text>
+          </g>
+        </g>
+        <text x="480" y="420" textAnchor="middle" fill="#64748B" fontSize="12">
+          Source: Digital Growth Guide Educational Curriculum • Strategic Content Production Model
+        </text>
+      </svg>
+      <figcaption className="bg-slate-900/95 px-6 py-3 text-xs text-slate-400 border-t border-slate-800 flex items-center justify-between">
+        <span>Figure 5.1: The Content Marketing Strategy Lifecycle and Continuous Growth Flywheel</span>
+        <span className="font-mono text-emerald-400">Content Model</span>
+      </figcaption>
+    </figure>
+  );
+};
+
+/**
+ * Article 6 Illustration:
+ * Social Media Marketing Framework
+ */
+export const SocialMediaIllustration: React.FC<IllustrationProps> = ({ className = '', alt }) => {
+  return (
+    <figure className={`overflow-hidden rounded-2xl border border-slate-200 bg-slate-900 shadow-xl ${className}`}>
+      <svg viewBox="0 0 960 480" className="w-full h-auto" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label={alt}>
+        <title>{alt}</title>
+        <defs>
+          <linearGradient id="bg-grad-6" x1="0" y1="0" x2="960" y2="480" gradientUnits="userSpaceOnUse">
+            <stop stopColor="#0B1329" />
+            <stop offset="1" stopColor="#1E293B" />
+          </linearGradient>
+          <pattern id="grid-pattern-6" width="40" height="40" patternUnits="userSpaceOnUse">
+            <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" strokeWidth="0.5" opacity="0.3" />
+          </pattern>
+        </defs>
+        <rect width="960" height="480" fill="url(#bg-grad-6)" />
+        <rect width="960" height="480" fill="url(#grid-pattern-6)" />
+        <text x="480" y="44" textAnchor="middle" fill="#94A3B8" fontSize="13" fontWeight="600" letterSpacing="0.1em">
+          SOCIAL MEDIA MARKETING STRATEGY
+        </text>
+        <text x="480" y="72" textAnchor="middle" fill="#FFFFFF" fontSize="22" fontWeight="700">
+          From Audience Awareness to Active Community Engagement
+        </text>
+        <g transform="translate(100, 110)">
+          <rect width="760" height="260" rx="16" fill="#1E293B" stroke="#334155" />
+          {/* Step 1 */}
+          <g transform="translate(40, 30)">
+            <circle cx="40" cy="40" r="26" fill="#EC4899" fillOpacity="0.2" />
+            <text x="40" y="46" textAnchor="middle" fill="#F472B6" fontSize="16" fontWeight="bold">01</text>
+            <text x="90" y="35" fill="#FFFFFF" fontSize="16" fontWeight="bold">Platform Selection</text>
+            <text x="90" y="55" fill="#94A3B8" fontSize="12">Target where your audience spends real time (LinkedIn, X, YouTube, Instagram)</text>
+          </g>
+          {/* Step 2 */}
+          <g transform="translate(40, 105)">
+            <circle cx="40" cy="40" r="26" fill="#8B5CF6" fillOpacity="0.2" />
+            <text x="40" y="46" textAnchor="middle" fill="#A78BFA" fontSize="16" fontWeight="bold">02</text>
+            <text x="90" y="35" fill="#FFFFFF" fontSize="16" fontWeight="bold">Content Value Pillars</text>
+            <text x="90" y="55" fill="#94A3B8" fontSize="12">80% educational insight and helpful takeaways, 20% direct promotional invitations</text>
+          </g>
+          {/* Step 3 */}
+          <g transform="translate(40, 180)">
+            <circle cx="40" cy="40" r="26" fill="#10B981" fillOpacity="0.2" />
+            <text x="40" y="46" textAnchor="middle" fill="#34D399" fontSize="16" fontWeight="bold">03</text>
+            <text x="90" y="35" fill="#FFFFFF" fontSize="16" fontWeight="bold">Community & Referral Traffic</text>
+            <text x="90" y="55" fill="#94A3B8" fontSize="12">Meaningful replies, active discussions, and strategic referral links to website blog posts</text>
+          </g>
+        </g>
+        <text x="480" y="420" textAnchor="middle" fill="#64748B" fontSize="12">
+          Source: Digital Growth Guide Educational Curriculum • Social Engagement Fundamentals
+        </text>
+      </svg>
+      <figcaption className="bg-slate-900/95 px-6 py-3 text-xs text-slate-400 border-t border-slate-800 flex items-center justify-between">
+        <span>Figure 6.1: The Three Stages of Strategic Social Media Audience Acquisition</span>
+        <span className="font-mono text-emerald-400">Social Architecture</span>
+      </figcaption>
+    </figure>
+  );
+};
+
+/**
+ * Article 7 Illustration:
+ * Technical SEO Pillars
+ */
+export const TechnicalSeoIllustration: React.FC<IllustrationProps> = ({ className = '', alt }) => {
+  return (
+    <figure className={`overflow-hidden rounded-2xl border border-slate-200 bg-slate-900 shadow-xl ${className}`}>
+      <svg viewBox="0 0 960 480" className="w-full h-auto" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label={alt}>
+        <title>{alt}</title>
+        <defs>
+          <linearGradient id="bg-grad-7" x1="0" y1="0" x2="960" y2="480" gradientUnits="userSpaceOnUse">
+            <stop stopColor="#0B1329" />
+            <stop offset="1" stopColor="#1E293B" />
+          </linearGradient>
+          <pattern id="grid-pattern-7" width="40" height="40" patternUnits="userSpaceOnUse">
+            <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" strokeWidth="0.5" opacity="0.3" />
+          </pattern>
+        </defs>
+        <rect width="960" height="480" fill="url(#bg-grad-7)" />
+        <rect width="960" height="480" fill="url(#grid-pattern-7)" />
+        <text x="480" y="44" textAnchor="middle" fill="#94A3B8" fontSize="13" fontWeight="600" letterSpacing="0.1em">
+          TECHNICAL SEO ARCHITECTURE
+        </text>
+        <text x="480" y="72" textAnchor="middle" fill="#FFFFFF" fontSize="22" fontWeight="700">
+          Crawlability, Core Web Vitals, and Site Health Infrastructure
+        </text>
+        <g transform="translate(60, 110)">
+          {/* Card 1 */}
+          <g transform="translate(0, 0)">
+            <rect width="195" height="250" rx="14" fill="#1E293B" stroke="#38BDF8" strokeWidth="1.5" />
+            <text x="20" y="40" fill="#38BDF8" fontSize="13" fontWeight="bold">1. CRAWL & INDEX</text>
+            <text x="20" y="65" fill="#FFFFFF" fontSize="16" fontWeight="bold">Access Control</text>
+            <text x="20" y="100" fill="#94A3B8" fontSize="11">• XML Sitemap validity</text>
+            <text x="20" y="125" fill="#94A3B8" fontSize="11">• robots.txt directives</text>
+            <text x="20" y="150" fill="#94A3B8" fontSize="11">• Canonical tags (rel=canonical)</text>
+            <text x="20" y="175" fill="#94A3B8" fontSize="11">• Zero 404 broken links</text>
+            <rect x="20" y="200" width="155" height="26" rx="6" fill="#0F172A" />
+            <text x="97" y="217" textAnchor="middle" fill="#38BDF8" fontSize="10" fontWeight="600">Spider Navigation</text>
+          </g>
+          {/* Card 2 */}
+          <g transform="translate(215, 0)">
+            <rect width="195" height="250" rx="14" fill="#1E293B" stroke="#10B981" strokeWidth="2" />
+            <text x="20" y="40" fill="#34D399" fontSize="13" fontWeight="bold">2. CORE WEB VITALS</text>
+            <text x="20" y="65" fill="#FFFFFF" fontSize="16" fontWeight="bold">Speed & Polish</text>
+            <text x="20" y="100" fill="#94A3B8" fontSize="11">• LCP &lt; 2.5 seconds</text>
+            <text x="20" y="125" fill="#94A3B8" fontSize="11">• INP (Interaction responsiveness)</text>
+            <text x="20" y="150" fill="#94A3B8" fontSize="11">• CLS &lt; 0.1 layout shift</text>
+            <text x="20" y="175" fill="#94A3B8" fontSize="11">• WebP / asset compression</text>
+            <rect x="20" y="200" width="155" height="26" rx="6" fill="#059669" />
+            <text x="97" y="217" textAnchor="middle" fill="#FFFFFF" fontSize="10" fontWeight="700">Google Ranking Signal</text>
+          </g>
+          {/* Card 3 */}
+          <g transform="translate(430, 0)">
+            <rect width="195" height="250" rx="14" fill="#1E293B" stroke="#F59E0B" strokeWidth="1.5" />
+            <text x="20" y="40" fill="#FBBF24" fontSize="13" fontWeight="bold">3. STRUCTURE & DATA</text>
+            <text x="20" y="65" fill="#FFFFFF" fontSize="16" fontWeight="bold">Schema.org</text>
+            <text x="20" y="100" fill="#94A3B8" fontSize="11">• JSON-LD structured data</text>
+            <text x="20" y="125" fill="#94A3B8" fontSize="11">• FAQPage rich snippets</text>
+            <text x="20" y="150" fill="#94A3B8" fontSize="11">• BreadcrumbList navigation</text>
+            <text x="20" y="175" fill="#94A3B8" fontSize="11">• OpenGraph & Twitter tags</text>
+            <rect x="20" y="200" width="155" height="26" rx="6" fill="#0F172A" />
+            <text x="97" y="217" textAnchor="middle" fill="#FBBF24" fontSize="10" fontWeight="600">Rich SERP Snippets</text>
+          </g>
+          {/* Card 4 */}
+          <g transform="translate(645, 0)">
+            <rect width="195" height="250" rx="14" fill="#1E293B" stroke="#64748B" strokeWidth="1.5" />
+            <text x="20" y="40" fill="#CBD5E1" fontSize="13" fontWeight="bold">4. SECURITY & MOBILITY</text>
+            <text x="20" y="65" fill="#FFFFFF" fontSize="16" fontWeight="bold">Foundation</text>
+            <text x="20" y="100" fill="#94A3B8" fontSize="11">• Enforce HTTPS / SSL</text>
+            <text x="20" y="125" fill="#94A3B8" fontSize="11">• Responsive viewport meta</text>
+            <text x="20" y="150" fill="#94A3B8" fontSize="11">• HTTP/2 or HTTP/3 server</text>
+            <text x="20" y="175" fill="#94A3B8" fontSize="11">• Clean canonical routing</text>
+            <rect x="20" y="200" width="155" height="26" rx="6" fill="#0F172A" />
+            <text x="97" y="217" textAnchor="middle" fill="#CBD5E1" fontSize="10" fontWeight="600">Security & Trust</text>
+          </g>
+        </g>
+        <text x="480" y="420" textAnchor="middle" fill="#64748B" fontSize="12">
+          Source: Digital Growth Guide Educational Curriculum • Technical SEO Blueprint
+        </text>
+      </svg>
+      <figcaption className="bg-slate-900/95 px-6 py-3 text-xs text-slate-400 border-t border-slate-800 flex items-center justify-between">
+        <span>Figure 7.1: Key Components of Technical SEO Crawlability and Performance</span>
+        <span className="font-mono text-emerald-400">Technical Audit</span>
+      </figcaption>
+    </figure>
+  );
+};
+
+/**
+ * Article 8 Illustration:
+ * Link Building & Backlink Authority Network
+ */
+export const LinkBuildingIllustration: React.FC<IllustrationProps> = ({ className = '', alt }) => {
+  return (
+    <figure className={`overflow-hidden rounded-2xl border border-slate-200 bg-slate-900 shadow-xl ${className}`}>
+      <svg viewBox="0 0 960 480" className="w-full h-auto" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label={alt}>
+        <title>{alt}</title>
+        <defs>
+          <linearGradient id="bg-grad-8" x1="0" y1="0" x2="960" y2="480" gradientUnits="userSpaceOnUse">
+            <stop stopColor="#0B1329" />
+            <stop offset="1" stopColor="#1E293B" />
+          </linearGradient>
+          <pattern id="grid-pattern-8" width="40" height="40" patternUnits="userSpaceOnUse">
+            <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" strokeWidth="0.5" opacity="0.3" />
+          </pattern>
+        </defs>
+        <rect width="960" height="480" fill="url(#bg-grad-8)" />
+        <rect width="960" height="480" fill="url(#grid-pattern-8)" />
+        <text x="480" y="44" textAnchor="middle" fill="#94A3B8" fontSize="13" fontWeight="600" letterSpacing="0.1em">
+          LINK BUILDING & DOMAIN AUTHORITY MATRIX
+        </text>
+        <text x="480" y="72" textAnchor="middle" fill="#FFFFFF" fontSize="22" fontWeight="700">
+          How Quality Editorial Backlinks Transmit Search Authority
+        </text>
+        <g transform="translate(80, 115)">
+          {/* External Authoritative Site */}
+          <g transform="translate(0, 40)">
+            <rect width="230" height="170" rx="14" fill="#1E293B" stroke="#38BDF8" strokeWidth="1.5" />
+            <text x="25" y="35" fill="#38BDF8" fontSize="12" fontWeight="bold">HIGH AUTHORITY SITE</text>
+            <text x="25" y="60" fill="#FFFFFF" fontSize="16" fontWeight="bold">Industry Resource</text>
+            <text x="25" y="90" fill="#94A3B8" fontSize="11">Domain Rating: 75+</text>
+            <text x="25" y="110" fill="#94A3B8" fontSize="11">Relevant contextual topic</text>
+            <rect x="25" y="125" width="180" height="26" rx="6" fill="#0F172A" />
+            <text x="115" y="142" textAnchor="middle" fill="#38BDF8" fontSize="10">Editorial Anchor Link ↗</text>
+          </g>
+          {/* Flow Link Arrow */}
+          <g transform="translate(245, 120)">
+            <line x1="0" y1="0" x2="110" y2="0" stroke="#10B981" strokeWidth="4" strokeDasharray="6 6" />
+            <polygon points="110,-8 126,0 110,8" fill="#10B981" />
+            <text x="60" y="-14" textAnchor="middle" fill="#34D399" fontSize="11" fontWeight="bold">Link Equity (PageRank)</text>
+          </g>
+          {/* Your Website */}
+          <g transform="translate(390, 20)">
+            <rect width="400" height="210" rx="14" fill="#1E293B" stroke="#10B981" strokeWidth="2" />
+            <text x="25" y="35" fill="#34D399" fontSize="12" fontWeight="bold">YOUR TARGET WEB PAGE</text>
+            <text x="25" y="60" fill="#FFFFFF" fontSize="17" fontWeight="bold">Digital Growth Guide Article</text>
+            <text x="25" y="95" fill="#E2E8F0" fontSize="12">✓ Earns organic ranking trust from search crawlers</text>
+            <text x="25" y="120" fill="#E2E8F0" fontSize="12">✓ Receives referral visitors from high-intent readers</text>
+            <text x="25" y="145" fill="#E2E8F0" fontSize="12">✓ Passes internal equity downward to supporting pages</text>
+            <rect x="25" y="165" width="350" height="30" rx="8" fill="#059669" />
+            <text x="200" y="185" textAnchor="middle" fill="#FFFFFF" fontSize="11" fontWeight="bold">Compounding Organic Rankings & Visibility</text>
+          </g>
+        </g>
+        <text x="480" y="420" textAnchor="middle" fill="#64748B" fontSize="12">
+          Source: Digital Growth Guide Educational Curriculum • Off-Page Authority Foundations
+        </text>
+      </svg>
+      <figcaption className="bg-slate-900/95 px-6 py-3 text-xs text-slate-400 border-t border-slate-800 flex items-center justify-between">
+        <span>Figure 8.1: The Mechanism of Editorial Backlink Equity Transfer in Search Algorithms</span>
+        <span className="font-mono text-emerald-400">Link Equity Network</span>
+      </figcaption>
+    </figure>
+  );
+};
+
+/**
+ * Article 9 Illustration:
+ * Email Marketing Strategy & Subscriber Lifecycle
+ */
+export const EmailMarketingIllustration: React.FC<IllustrationProps> = ({ className = '', alt }) => {
+  return (
+    <figure className={`overflow-hidden rounded-2xl border border-slate-200 bg-slate-900 shadow-xl ${className}`}>
+      <svg viewBox="0 0 960 480" className="w-full h-auto" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label={alt}>
+        <title>{alt}</title>
+        <defs>
+          <linearGradient id="bg-grad-9" x1="0" y1="0" x2="960" y2="480" gradientUnits="userSpaceOnUse">
+            <stop stopColor="#0B1329" />
+            <stop offset="1" stopColor="#1E293B" />
+          </linearGradient>
+          <pattern id="grid-pattern-9" width="40" height="40" patternUnits="userSpaceOnUse">
+            <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" strokeWidth="0.5" opacity="0.3" />
+          </pattern>
+        </defs>
+        <rect width="960" height="480" fill="url(#bg-grad-9)" />
+        <rect width="960" height="480" fill="url(#grid-pattern-9)" />
+        <text x="480" y="44" textAnchor="middle" fill="#94A3B8" fontSize="13" fontWeight="600" letterSpacing="0.1em">
+          EMAIL MARKETING CONVERSION FUNNEL
+        </text>
+        <text x="480" y="72" textAnchor="middle" fill="#FFFFFF" fontSize="22" fontWeight="700">
+          Subscriber Lifecycle: Lead Magnet, Welcome Flow, and Retention
+        </text>
+        <g transform="translate(60, 115)">
+          {/* Phase 1 */}
+          <g transform="translate(0, 0)">
+            <rect width="195" height="240" rx="14" fill="#1E293B" stroke="#38BDF8" strokeWidth="1.5" />
+            <text x="20" y="35" fill="#38BDF8" fontSize="11" fontWeight="bold">PHASE 01</text>
+            <text x="20" y="60" fill="#FFFFFF" fontSize="16" fontWeight="bold">Lead Magnet</text>
+            <text x="20" y="95" fill="#94A3B8" fontSize="11">• Free SEO checklist</text>
+            <text x="20" y="118" fill="#94A3B8" fontSize="11">• Opt-in forms & popups</text>
+            <text x="20" y="141" fill="#94A3B8" fontSize="11">• Transparent consent</text>
+            <rect x="20" y="185" width="155" height="26" rx="6" fill="#0F172A" />
+            <text x="97" y="202" textAnchor="middle" fill="#38BDF8" fontSize="10" fontWeight="600">List Building</text>
+          </g>
+          {/* Phase 2 */}
+          <g transform="translate(215, 0)">
+            <rect width="195" height="240" rx="14" fill="#1E293B" stroke="#10B981" strokeWidth="2" />
+            <text x="20" y="35" fill="#34D399" fontSize="11" fontWeight="bold">PHASE 02</text>
+            <text x="20" y="60" fill="#FFFFFF" fontSize="16" fontWeight="bold">Welcome Sequence</text>
+            <text x="20" y="95" fill="#94A3B8" fontSize="11">• 3-day onboarding series</text>
+            <text x="20" y="118" fill="#94A3B8" fontSize="11">• Introduce core mission</text>
+            <text x="20" y="141" fill="#94A3B8" fontSize="11">• Best educational posts</text>
+            <rect x="20" y="185" width="155" height="26" rx="6" fill="#059669" />
+            <text x="97" y="202" textAnchor="middle" fill="#FFFFFF" fontSize="10" fontWeight="700">Immediate Trust</text>
+          </g>
+          {/* Phase 3 */}
+          <g transform="translate(430, 0)">
+            <rect width="195" height="240" rx="14" fill="#1E293B" stroke="#F59E0B" strokeWidth="1.5" />
+            <text x="20" y="35" fill="#FBBF24" fontSize="11" fontWeight="bold">PHASE 03</text>
+            <text x="20" y="60" fill="#FFFFFF" fontSize="16" fontWeight="bold">Segmentation</text>
+            <text x="20" y="95" fill="#94A3B8" fontSize="11">• Group by reader goals</text>
+            <text x="20" y="118" fill="#94A3B8" fontSize="11">• Tailored weekly advice</text>
+            <text x="20" y="141" fill="#94A3B8" fontSize="11">• Click engagement tags</text>
+            <rect x="20" y="185" width="155" height="26" rx="6" fill="#0F172A" />
+            <text x="97" y="202" textAnchor="middle" fill="#FBBF24" fontSize="10" fontWeight="600">Relevance</text>
+          </g>
+          {/* Phase 4 */}
+          <g transform="translate(645, 0)">
+            <rect width="195" height="240" rx="14" fill="#1E293B" stroke="#A855F7" strokeWidth="1.5" />
+            <text x="20" y="35" fill="#C084FC" fontSize="11" fontWeight="bold">PHASE 04</text>
+            <text x="20" y="60" fill="#FFFFFF" fontSize="16" fontWeight="bold">Conversion & ROI</text>
+            <text x="20" y="95" fill="#94A3B8" fontSize="11">• 38:1 average return</text>
+            <text x="20" y="118" fill="#94A3B8" fontSize="11">• Repeat traffic driver</text>
+            <text x="20" y="141" fill="#94A3B8" fontSize="11">• Direct subscriber bond</text>
+            <rect x="20" y="185" width="155" height="26" rx="6" fill="#0F172A" />
+            <text x="97" y="202" textAnchor="middle" fill="#C084FC" fontSize="10" fontWeight="600">Owned Channel</text>
+          </g>
+        </g>
+        <text x="480" y="420" textAnchor="middle" fill="#64748B" fontSize="12">
+          Source: Digital Growth Guide Educational Curriculum • Email Nurture Mechanics
+        </text>
+      </svg>
+      <figcaption className="bg-slate-900/95 px-6 py-3 text-xs text-slate-400 border-t border-slate-800 flex items-center justify-between">
+        <span>Figure 9.1: The Four Stages of the Email Marketing Subscriber Journey</span>
+        <span className="font-mono text-emerald-400">Subscriber Journey</span>
+      </figcaption>
+    </figure>
+  );
+};
+
+/**
+ * Article 10 Illustration:
+ * Digital Marketing Analytics Dashboard
+ */
+export const MarketingAnalyticsIllustration: React.FC<IllustrationProps> = ({ className = '', alt }) => {
+  return (
+    <figure className={`overflow-hidden rounded-2xl border border-slate-200 bg-slate-900 shadow-xl ${className}`}>
+      <svg viewBox="0 0 960 480" className="w-full h-auto" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label={alt}>
+        <title>{alt}</title>
+        <defs>
+          <linearGradient id="bg-grad-10" x1="0" y1="0" x2="960" y2="480" gradientUnits="userSpaceOnUse">
+            <stop stopColor="#0B1329" />
+            <stop offset="1" stopColor="#1E293B" />
+          </linearGradient>
+          <pattern id="grid-pattern-10" width="40" height="40" patternUnits="userSpaceOnUse">
+            <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" strokeWidth="0.5" opacity="0.3" />
+          </pattern>
+        </defs>
+        <rect width="960" height="480" fill="url(#bg-grad-10)" />
+        <rect width="960" height="480" fill="url(#grid-pattern-10)" />
+        <text x="480" y="44" textAnchor="middle" fill="#94A3B8" fontSize="13" fontWeight="600" letterSpacing="0.1em">
+          DIGITAL MARKETING ANALYTICS DASHBOARD
+        </text>
+        <text x="480" y="72" textAnchor="middle" fill="#FFFFFF" fontSize="22" fontWeight="700">
+          Tracking Traffic Acquisition, User Behavior, and Conversion KPIs
+        </text>
+        <g transform="translate(60, 105)">
+          {/* KPI 1 */}
+          <g transform="translate(0, 0)">
+            <rect width="195" height="110" rx="12" fill="#1E293B" stroke="#334155" />
+            <text x="18" y="32" fill="#94A3B8" fontSize="11" fontWeight="600">TOTAL SESSIONS</text>
+            <text x="18" y="68" fill="#FFFFFF" fontSize="26" fontWeight="bold">24,580</text>
+            <text x="18" y="92" fill="#10B981" fontSize="11" fontWeight="bold">+34.2% MoM Organic</text>
+          </g>
+          {/* KPI 2 */}
+          <g transform="translate(215, 0)">
+            <rect width="195" height="110" rx="12" fill="#1E293B" stroke="#334155" />
+            <text x="18" y="32" fill="#94A3B8" fontSize="11" fontWeight="600">AVG. ENGAGEMENT TIME</text>
+            <text x="18" y="68" fill="#FFFFFF" fontSize="26" fontWeight="bold">3m 42s</text>
+            <text x="18" y="92" fill="#10B981" fontSize="11" fontWeight="bold">+18% Content Depth</text>
+          </g>
+          {/* KPI 3 */}
+          <g transform="translate(430, 0)">
+            <rect width="195" height="110" rx="12" fill="#1E293B" stroke="#334155" />
+            <text x="18" y="32" fill="#94A3B8" fontSize="11" fontWeight="600">CONVERSION RATE</text>
+            <text x="18" y="68" fill="#FFFFFF" fontSize="26" fontWeight="bold">4.8%</text>
+            <text x="18" y="92" fill="#10B981" fontSize="11" fontWeight="bold">+1.2% Qualified Leads</text>
+          </g>
+          {/* KPI 4 */}
+          <g transform="translate(645, 0)">
+            <rect width="195" height="110" rx="12" fill="#1E293B" stroke="#10B981" strokeWidth="2" />
+            <text x="18" y="32" fill="#34D399" fontSize="11" fontWeight="700">ORGANIC REVENUE / ROI</text>
+            <text x="18" y="68" fill="#FFFFFF" fontSize="26" fontWeight="bold">$18,450</text>
+            <text x="18" y="92" fill="#10B981" fontSize="11" fontWeight="bold">4.2x ROAS Equivalent</text>
+          </g>
+          {/* Bar Chart Area */}
+          <g transform="translate(0, 130)">
+            <rect width="840" height="135" rx="14" fill="#1E293B" stroke="#334155" />
+            <text x="25" y="30" fill="#FFFFFF" fontSize="14" fontWeight="bold">Traffic Acquisition by Channel</text>
+            <text x="25" y="62" fill="#94A3B8" fontSize="11">Organic Search (58%)</text>
+            <rect x="180" y="52" width="380" height="14" rx="4" fill="#10B981" />
+            <text x="25" y="87" fill="#94A3B8" fontSize="11">Direct / Bookmarks (22%)</text>
+            <rect x="180" y="77" width="160" height="14" rx="4" fill="#3B82F6" />
+            <text x="25" y="112" fill="#94A3B8" fontSize="11">Social & Referral (20%)</text>
+            <rect x="180" y="102" width="130" height="14" rx="4" fill="#A855F7" />
+          </g>
+        </g>
+        <text x="480" y="420" textAnchor="middle" fill="#64748B" fontSize="12">
+          Source: Digital Growth Guide Educational Curriculum • Analytics & Performance Reporting
+        </text>
+      </svg>
+      <figcaption className="bg-slate-900/95 px-6 py-3 text-xs text-slate-400 border-t border-slate-800 flex items-center justify-between">
+        <span>Figure 10.1: Key Performance Indicators (KPIs) in Digital Marketing Analytics</span>
+        <span className="font-mono text-emerald-400">Analytics Dashboard</span>
+      </figcaption>
+    </figure>
+  );
+};

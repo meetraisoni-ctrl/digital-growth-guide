@@ -5,6 +5,13 @@ import {
   SeoEngineIllustration,
   KeywordResearchIllustration,
   OnPageSeoIllustration,
+  DigitalMarketingIllustration,
+  ContentMarketingIllustration,
+  SocialMediaIllustration,
+  TechnicalSeoIllustration,
+  LinkBuildingIllustration,
+  EmailMarketingIllustration,
+  MarketingAnalyticsIllustration,
 } from './ArticleIllustrations';
 
 interface ArticleCardProps {
@@ -26,6 +33,20 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({
         return <KeywordResearchIllustration alt={article.imageAlt} className="w-full h-48 sm:h-52" />;
       case 'on-page-seo-techniques':
         return <OnPageSeoIllustration alt={article.imageAlt} className="w-full h-48 sm:h-52" />;
+      case 'what-is-digital-marketing':
+        return <DigitalMarketingIllustration alt={article.imageAlt} className="w-full h-48 sm:h-52" />;
+      case 'content-marketing-strategy':
+        return <ContentMarketingIllustration alt={article.imageAlt} className="w-full h-48 sm:h-52" />;
+      case 'social-media-marketing-guide':
+        return <SocialMediaIllustration alt={article.imageAlt} className="w-full h-48 sm:h-52" />;
+      case 'technical-seo-basics':
+        return <TechnicalSeoIllustration alt={article.imageAlt} className="w-full h-48 sm:h-52" />;
+      case 'link-building-guide':
+        return <LinkBuildingIllustration alt={article.imageAlt} className="w-full h-48 sm:h-52" />;
+      case 'email-marketing-guide':
+        return <EmailMarketingIllustration alt={article.imageAlt} className="w-full h-48 sm:h-52" />;
+      case 'digital-marketing-analytics':
+        return <MarketingAnalyticsIllustration alt={article.imageAlt} className="w-full h-48 sm:h-52" />;
       default:
         return null;
     }
