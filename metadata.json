@@ -1,0 +1,6 @@
+{
+  "name": "Digital Growth Guide",
+  "description": "An educational blog website providing comprehensive guides on digital marketing, keyword research, and on-page SEO techniques for beginners.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

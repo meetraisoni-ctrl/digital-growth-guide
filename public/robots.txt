@@ -1,0 +1,5 @@
+# robots.txt for Digital Growth Guide
+User-agent: *
+Allow: /
+
+Sitemap: https://digitalgrowthguide.vercel.app/sitemap.xml
